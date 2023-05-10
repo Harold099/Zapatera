@@ -1,1 +1,19 @@
+using System;
 
+namespace MiProyecto
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Creamos un objeto de tipo "Carro"
+            Carro miCarro = new Carro();
+            
+            // Asignamos valores a las propiedades del carro
+            miCarro.Marca = "Toyota";
+            miCarro.Modelo = "Corolla";
+            miCarro.Año = 2021;
+            miCarro.Color = "Rojo";
+            miCarro.VelocidadMaxima = 200;
+
+            // Llamamos a algunos
