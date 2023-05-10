@@ -17,3 +17,27 @@ namespace MiProyecto
             miCarro.VelocidadMaxima = 200;
 
             // Llamamos a algunos
+public class Carro
+{
+    public string Marca { get; set; }
+    public string Modelo { get; set; }
+    public int Año { get; set; }
+    public string Color { get; set; }
+    public int VelocidadMaxima { get; set; }
+
+    public void Acelerar()
+    {
+        Console.WriteLine("El carro está acelerando.");
+    }
+
+    public void Frenar()
+    {
+        Console.WriteLine("El carro está frenando.");
+    }
+
+    public void Girar(string direccion)
+    {
+        Console.WriteLine("El carro está girando");
+     }
+}     
+     
