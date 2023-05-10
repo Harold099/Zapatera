@@ -48,7 +48,18 @@ public class Cliente
     public int Edad;
     public string DNI { get; set;}
     public string genero { get; set;}
+   
     
+    public void Comprar (){
+        Console.WriteLine("El cliente a comprado un auto.")
+    }
     
+    public void Pago(string tipoPago){
+        if(tipoPago=="Al contado")
+            Console.WriteLine("El cliente realiza pago contado.");
+        else
+            Console.WriteLine("El cliente realiza pago a credito.");
+    }
 }
+    
 
